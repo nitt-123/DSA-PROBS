@@ -1,0 +1,22 @@
+#include<iostream>
+usng namespace std;
+int gcd(int a,int b){
+int res = min(a,b):
+while(res > 0){
+if(a%res == 0 && b%res == 0 ){
+break;
+}
+res--;
+}
+return res;
+}
+
+
+int main(){
+cout<<"enter the numbers for which you need the GCD"<<endl;
+int a,b;
+cin>>a>>b;
+int k = gcd(a,b);
+cout<<"the gcd are"<<gcd<<endl;
+return 0;
+}
