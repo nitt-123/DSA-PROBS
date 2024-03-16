@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int trail(int n){
+int res = 0;
+for(int i = 5;  i<= n; i*=5){
+res = res+n/i;
+}
+return res;
+}
+int main(){
+cout<<"enter a number"<<endl;
+int n;
+cin>>n;
+int k = trail(n);
+cout<<the number of trailing zeroes in the factorial of the number is <<k<<endl;
+return 0;
+}
