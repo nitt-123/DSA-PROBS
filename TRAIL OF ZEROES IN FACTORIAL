@@ -16,6 +16,10 @@ int main(){
 cout<<"enter a number"<<endl;
 int n;
 cin>>n;
+int k = countzeroes(n);
+cout<<"the number of trailing zeroes in the factorial are"<<k<<endl;
+return 0;
+
 
 
 }
