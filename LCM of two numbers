@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int Lcm(int a,int b){
+int res = max(a,b);
+while(true){
+if(res%a == 0 && res % b == 0){
+return res;
+}
+res++;
+return res;
+}
+int main(){
+cout<<"enter the two numbers"<<endl;
+int a,b;
+cin>>a>>b;
+int k = lcm(a,b);
+cout<<"the Lcm of the two numbers are"<<k<<endl;
+return 0;
+}
